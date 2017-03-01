@@ -9,4 +9,4 @@ spec:
   - name: k8s-test
     image: jrevault/k8s-test
     ports:
-- containerPort: 3000
+    - containerPort: 3000
