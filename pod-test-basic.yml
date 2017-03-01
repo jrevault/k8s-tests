@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodetestbasic.example.com
+  labels:
+    app: testbasic
+spec:
+  containers:
+  - name: k8s-test
+    image: jrevault/k8s-test
+    ports:
+- containerPort: 3000
